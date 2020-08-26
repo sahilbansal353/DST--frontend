@@ -1,0 +1,168 @@
+body{
+  background-color:#e0ece4;
+}
+.logos {
+  top: 0;
+  height: 20vh;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.logo1 {
+  height: 100%;
+  width: 20%;
+  display: inline-block;
+  float: left;
+  padding: 10px;
+}
+.logo2{
+  height: 100%;
+  width: 20%;
+  display: inline-block;
+  float: right;
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  background-color: #1b1919;
+}
+.navbar ul {
+  width: 100%;
+  text-align: center;
+}
+.navbar ul li {
+  display: inline-block;
+  font-size: large;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.navbar ul li a {
+  color:white;
+  text-decoration: none;
+}
+.navbar ul li .navright {
+  margin-right: 0;
+}
+.card {
+  background-color: #e0ece4;
+}
+.card .card-body ul {
+  width: 100%;
+  text-align: center;
+}
+.card .card-body ul {
+  width: 100%;
+  text-align: center;
+}
+.card .card-body ul li {
+  text-align: left;
+  width: 45%;
+  display: inline-block;
+}
+.card .card-body ul li label {
+  font-size: large;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.card .card-body ul li input {
+  display: block;
+  width: 90%;
+  height: 2rem;
+  border-style: solid;
+  border-width: 1.5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.card .card-body ul li select {
+  width: 90%;
+  display: block;
+  height: 2rem;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.card .card-footer {
+  text-align: center;
+}
+.card .card-footer button {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 25%;
+}
+.card .card-footer button:hover {
+  animation: button-transform-anim 0.5s;
+}
+#testimonials
+{ background-color: #1b1919;
+}
+.carousel-item{
+padding:4% 25%;
+}
+.card-image{
+  width: 100%;
+  border-radius: 100%;
+  height: 100%;
+  padding:10%;
+}
+
+@media only screen and (max-width: 1080px) {
+  .page .logos {
+    height: 10vh;
+    border-radius: 0;
+  }
+  .page .logos img {
+    width: 30%;
+  }
+  .page .navbar .navbar-toggler {
+    color: azure;
+    text-align: center;
+  }
+  .page .navbar .collapse ul {
+    width: 100%;
+  }
+  .page .navbar .collapse ul li {
+    width: 100%;
+    display: inline-block;
+    list-style-type: none;
+  }
+  .page .card .card-header {
+    text-align: center;
+  }
+  .page .card .card-body ul {
+    width: 100%;
+  }
+  .page .card .card-body ul li {
+    width: 100%;
+    display: block;
+  }
+  .page .card .card-body ul li label {
+    font-size: small;
+  }
+  .page .card .card-body .card-footer button {
+    width: 70%;
+  }
+  .page .listacad ul .row {
+    width: 100%;
+  }
+  .page .listacad ul .row .card .col-md-4 {
+    height: fit-content;
+  }
+  .page .listacad ul .row .card .col-md-4 .card-img {
+    height: 30vh;
+  }
+  .page .listacad ul .row li {
+    height: 100%;
+  }
+}
+
+/*# sourceMappingURL=output.css.map */
